@@ -8,3 +8,8 @@ img{
     border-radius: 50%;
     object-fit: cover;
 }
+.sect{
+    background-color: brown;
+    display: grid;
+    grid-template: auto/1fr 1fr 1fr;
+}
