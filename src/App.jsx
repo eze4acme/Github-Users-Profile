@@ -16,6 +16,7 @@ if(!data){
   return (
     <>
       <ul className="sect">
+        <h1>Github Users profile</h1>
         {
           data.map(user =>{
               const {id, login, avatar_url, html_url} = user
